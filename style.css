@@ -56,40 +56,68 @@ nav {
   align-items: left;
 }
 
-.my-name {
-  font-size: 2rem;
-  font-weight: bold;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
-  color: white;
-}
-.english-name {
-  font-size: 1rem;
-  font-weight: bold;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
-  color: white;
-  padding-bottom: 10px;
+@media (max-width: 1000px) {
+  .my-name {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  .english-name {
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .fa {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+
+  .fa-instagram {
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 }
 
-.contact-info span {
-  font-size: 1rem;
-  font-weight: bold;
-  color: white;
-}
-
-.fa {
-  font-size: 1rem;
-  text-decoration: none;
-  color: white;
+@media (min-width: 1000px) {
+  .my-name {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  .english-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+    padding-bottom: 20px;
+  }
+  .fa {
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+  }
+  .fa-instagram {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .icon-list .fa:hover {
   color: #f90046;
 }
 
-.fa-instagram {
-  padding-top: 5px;
-  padding-left: 8px;
-  padding-right: 8px;
+.contact-info span {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
 }
 
 #about {
